@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1sseddedd.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="20,0"
+            Spacing="25">
+            <Label
+                Text="Spacer po Plantach"
+                FontSize="28"
+                HorizontalOptions="Center"
+                
+                />
+            <Image
+                Source="planty.png"
+                
+                
+                SemanticProperties.Description="Zdjęcie plantów" />
+
+            <Label
+                Text="Polubień: 0"
+                x:Name="tekst"
+                HorizontalOptions="End"
+/>
+            <Label
+              
+                Text="Lorem ipsum dolor sit amet,"
+                FontSize="18"
+                
+                SemanticProperties.Description="tekst" />
+            <HorizontalStackLayout HorizontalOptions="Center">
+            <Button
+               x:Name="Polubienie"
+                Text="Lubię to"
+                HorizontalOptions="Center"
+                Clicked="przycisk_Clicked"
+                SemanticProperties.Description="przycisk like"
+                />
+                <Button
+   x:Name="unPolubienie"
+    Text="Nie lubię"
+    HorizontalOptions="Center"
+    Clicked="przyciskUn_Clicked"
+    SemanticProperties.Description="przycisk like"
+    />
+
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
