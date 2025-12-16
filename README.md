@@ -1,1 +1,1 @@
-Mauiappseddedd to plik gdzie znajdzie pan zadanie
+MauiApp1sseddedd to plik gdzie znajdzie pan zadanie
